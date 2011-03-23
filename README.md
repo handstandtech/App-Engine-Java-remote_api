@@ -6,7 +6,6 @@ A default "backup" version to deploy onto App Engine
 
 - /* is protected and only accessible by Administrators
 - Uses Google App Engine 1.4.2
-- 
 
 ## INSTRUCTIONS
 
