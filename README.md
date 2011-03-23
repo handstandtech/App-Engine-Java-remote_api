@@ -2,13 +2,11 @@
 
 A default "backup" version to deploy onto App Engine
 
-## REQUIREMENTS
-
-- Google App Engine 1.4.2 or Higher
-
 ## NOTES
 
-- /* is protected and only accessible by administrators
+- /* is protected and only accessible by Administrators
+- Uses Google App Engine 1.4.2
+- 
 
 ## INSTRUCTIONS
 
