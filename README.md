@@ -5,8 +5,12 @@ A default "backup" version to deploy onto App Engine
 ## NOTES
 
 - /* is protected and only accessible by Administrators
-- Uses Google App Engine 1.4.2
 - Bulk Loader is accessible via /remote_api
+
+## REQUIREMENTS
+
+- Uses Google App Engine 1.4.2
+- Eclipse Project using the Google Plugin for Eclipse 3.6
 
 ## INSTRUCTIONS
 
