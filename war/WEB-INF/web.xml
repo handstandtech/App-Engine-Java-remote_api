@@ -12,7 +12,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>RemoteApi</servlet-name>
-		<url-pattern>/remote_api/*</url-pattern>
+		<url-pattern>/_ah/remote_api/*</url-pattern>
 	</servlet-mapping>
 
 	<!-- Security Constraints -->

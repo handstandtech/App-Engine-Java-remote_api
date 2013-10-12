@@ -9,9 +9,13 @@ A default "backup" version to deploy onto App Engine
 
 ## REQUIREMENTS
 
-- Uses Google App Engine 1.4.2
-- Eclipse Project using the Google Plugin for Eclipse 3.6
+- Uses Google App Engine 1.8.1
+- Eclipse Project using the Google Plugin for Eclipse Juno
 
 ## INSTRUCTIONS
 
 - In the war/WEB-INF/appengine-web.xml file, change *APPSPOT_NAME_GOES_HERE* to your appspot id
+
+## COMMANDS
+- appcfg.py create_bulkloader_config --filename=bulkloader.yaml --url=http://backup.APPSPOT_NAME_GOES_HERE.appspot.com/_ah/remote_api
+- appcfg.py download_data --url=http://backup.APPSPOT_NAME_GOES_HERE.appspot.com/_ah/remote_api --filename=backupfile
